@@ -67,3 +67,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.selected{
+  background: #009BFF;
+}
+
+.wrong{
+  background: rgb(151, 45, 45);
+}
