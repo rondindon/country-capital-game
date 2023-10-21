@@ -71,7 +71,7 @@ export default function CountryCapitalGame({data}:{data: Record<string, string>}
                 };
 
             }}>{option.value}</button>
-        ))}
+        ))};
 
     </>
 }
