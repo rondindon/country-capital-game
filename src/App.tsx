@@ -1,5 +1,5 @@
-import CountryCapitalGame from './components/CountryCapitalGame'
-import './App.css'
+import CountryCapitalGame from './components/CountryCapitalGame';
+import './App.css';
 
 function App() {
 
@@ -8,6 +8,6 @@ function App() {
       <CountryCapitalGame data={{Germany: "Berlin", Azerbaijan: "Baku"}}/>
     </>
   )
-}
+};
 
 export default App

@@ -4,11 +4,11 @@ type ButtonState = "DEFAULT" | 'SELECTED' | 'WRONG';
 type Option = {
     value: string,
     state: ButtonState;
-}
+};
 
 function randomize() {
     return Math.random() - 0.5;
-}
+};
 
 export default function CountryCapitalGame({data}:{data: Record<string, string>}){
 
@@ -30,7 +30,7 @@ export default function CountryCapitalGame({data}:{data: Record<string, string>}
         return(
             <div>Congratulations</div>
         )
-    }
+    };
 
     return <>
 
@@ -75,4 +75,4 @@ export default function CountryCapitalGame({data}:{data: Record<string, string>}
         ))};
 
     </>
-}
+};
